@@ -1,0 +1,55 @@
+/*************Big Image***************/
+#BigImage{
+	background: rgb(18,30,42);
+}
+
+#BigImage img{
+	max-width: 100%;
+	
+}
+
+.givemeroom{
+	padding: 0;
+	margin:0;
+}
+
+#textonpicture{
+	position: absolute;
+	top: 100px;
+	color: #fff;
+	/*background: rgb(18,30,42);*/
+	opacity: 1%;
+}
+
+/*************Gallery***************/
+.marvel img{
+	max-width: 100%;
+	margin-bottom: 5%;
+}
+
+.marvel .inner{
+	position: absolute;
+	bottom: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	left: 0px;
+	padding: 10px 10px 0;
+	text-align: center;
+}
+
+h3{
+	padding: 2% 3%;
+	color: #fff;
+}
+
+
+
+/*************Footer***************/
+footer{
+	background: rgb(18,30,42);
+	padding: 10px 0;
+}
+
+.socialroom{
+	padding: 2%;
+}
