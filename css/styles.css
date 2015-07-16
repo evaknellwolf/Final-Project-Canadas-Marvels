@@ -60,29 +60,28 @@ h3{
 
 /*************Blog***************/
 
-#textonblogstartingpicture{
-	position: absolute;
-	top: 180px;
-	color: #fff;
-	/*background: rgb(18,30,42);*/
-	opacity: 1%;
-}
-
-.blogpostimage img{
-	max-width: 100%;
-	margin-top: 3%;
-}
-
-.blogtitle{
+.wrapper{
+	top: 1000px;
 	background: #fff;
-	position: relative;
-	top: -40px;
-	padding: 2%;
 }
 
-.blogimage img{
-	max-width: 100%;
+#StartingPoint2{
+	position: relative;
+
 }
+
+#BackgroundBlog{
+	background-image: url("../img/IMG_0944.jpg");
+	background-repeat: no-repeat;
+	position: fixed;
+	background-position: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*************About***************/
 
 
 
