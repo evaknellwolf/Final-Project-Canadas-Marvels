@@ -70,11 +70,29 @@ h3{
 	padding: 0;
 	margin:0;
 }	
+
 #overlay{
 	color: #fff;
 	position: absolute;
 	bottom: 2%;
 }
+
+#overlayhome{
+	color: #fff;
+	position: absolute;
+	bottom: 10%;
+	/*background-color: rgba(18,30,42,0.3);*/
+}
+
+#overlayhome p{
+	text-shadow: 2px 2px 10px #000000;
+}
+
+#overlayhome h1{
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
 
 .blogpostimage{
 	padding-top: 2.5%;
