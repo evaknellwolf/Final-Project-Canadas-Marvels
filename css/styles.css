@@ -17,28 +17,11 @@ section{
 	display: block;
 }
 
-/*************Big Image***************/
-#BigImage{
-	background: rgb(18,30,42);
-}
+/*body{
+	background: red;
+}*/
 
-#BigImage img{
-	max-width: 100%;
-	
-}
 
-.givemeroom{
-	padding: 0;
-	margin:0;
-}
-
-#textonpicture{
-	position: absolute;
-	top: 100px;
-	color: #fff;
-	/*background: rgb(18,30,42);*/
-	opacity: 1%;
-}
 
 /*************Gallery***************/
 .marvel img{
@@ -62,27 +45,48 @@ h3{
 }
 
 /*************Blog***************/
-
-#heroBlog{
-	background-image: url(../img/IMG_1111.jpg);
-	background-repeat: no-repeat;
-	position: fixed;
-	background-size: cover;
-	max-width: 100%;
+/******Hero Part*********/
+#BigImage{
+	background: rgb(18,30,42);
 }
 
-#heroBlog h2{
-	padding-top: 40%;
+#BigImage img{
+	max-width: 100%;
+	
+}
+
+.givemeroom{
+	padding: 0;
+	margin:0;
+}	
+#overlay{
 	color: #fff;
+	position: absolute;
+	top: 70%;
 }
 
-#wrapper{
+.blogpostimage{
+	padding-top: 2.5%;
+	vertical-align: center;
+}
+
+.Summarytitle{
 	background: #fff;
+	padding-top: 2.5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	position: relative;
+	bottom: 70px;
 }
 
-.SummaryImg{
-	max-width: 100%;
+.SummaryText{
+	position: relative;
+	bottom: 70px;
 }
+
+/*****Blog Summary**********/
+
+
 
 
 /*************About***************/
