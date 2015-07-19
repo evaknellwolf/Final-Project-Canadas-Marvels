@@ -21,6 +21,17 @@ body{
 	font-family: 'Roboto Condensed',sans-serfi;
 }
 
+h1{
+	font-family: 'Roboto Condensed', sans-serfi;
+	font-weight: 300;
+	font-size: 5em;
+}
+
+p{
+	font-family: 'Roboto Condensed', sans-serfi;
+	font-weight: 300;
+	font-size: 1.75em;
+}
 
 
 /*************Gallery***************/
@@ -62,7 +73,7 @@ h3{
 #overlay{
 	color: #fff;
 	position: absolute;
-	bottom: 5%;
+	bottom: 2%;
 }
 
 .blogpostimage{
@@ -77,6 +88,8 @@ h3{
 	padding-right: 2.5%;
 	position: relative;
 	bottom: 60px;
+	font-weight: normal;
+	font-size: 2.5em;
 }
 
 .SummaryText{
