@@ -17,9 +17,9 @@ section{
 	display: block;
 }
 
-/*body{
-	background: red;
-}*/
+body{
+	font-family: 'Roboto Condensed',sans-serfi;
+}
 
 
 
@@ -62,7 +62,7 @@ h3{
 #overlay{
 	color: #fff;
 	position: absolute;
-	top: 70%;
+	bottom: 5%;
 }
 
 .blogpostimage{
