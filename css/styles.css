@@ -13,6 +13,9 @@ a:visited{
 	color: black;
 }
 
+section{
+	display: block;
+}
 
 /*************Big Image***************/
 #BigImage{
@@ -60,26 +63,27 @@ h3{
 
 /*************Blog***************/
 
-.wrapper{
-	top: 1000px;
+#heroBlog{
+	background-image: url(../img/IMG_1111.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+	background-size: cover;
+	max-width: 100%;
+}
+
+#heroBlog h2{
+	padding-top: 40%;
+	color: #fff;
+}
+
+#wrapper{
 	background: #fff;
 }
 
-#StartingPoint2{
-	position: relative;
-
+.SummaryImg{
+	max-width: 100%;
 }
 
-#BackgroundBlog{
-	background-image: url("../img/IMG_0944.jpg");
-	background-repeat: no-repeat;
-	position: fixed;
-	background-position: center;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
 
 /*************About***************/
 
