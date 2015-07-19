@@ -99,7 +99,9 @@ h3{
 
 /*****Blog Summary**********/
 
-
+.blogimage {
+	padding-top: 2%;
+}
 
 
 /*************About***************/
